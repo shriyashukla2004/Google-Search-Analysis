@@ -2,12 +2,14 @@
 
 
 **✨ Project Overview**
+
 This project showcases data engineering and analytical skills by utilizing the pytrends library, an unofficial Python wrapper for the Google Trends API. The core objective was to programmatically extract, analyze, and visualize global market interest for key technological terms, specifically focusing on "artificial intelligence" over the last 12 months.
 
 This solution demonstrates proficiency in robust API interaction, data wrangling with Pandas, and generating impactful visualizations for strategic insights.
 
 
 **🔬 Core Analytical Methodology**
+
 The analysis within the Google Search Analysis.ipynb notebook follows a structured, data-driven approach:
 
 1. Data Acquisition: Connecting to Google Trends and defining the primary search term: "artificial intelligence".
@@ -20,6 +22,7 @@ The analysis within the Google Search Analysis.ipynb notebook follows a structur
 
 
 **🛠️ Technical Skills Demonstrated**
+
 - API Interaction: Successfully retrieving data from an unofficial, rate-limited web API (pytrends).
 
 - Error Handling (Rate Limiting): The code includes using time.sleep(5) to demonstrate best practices for managing Google's status code 429 (TooManyRequestsError).
@@ -30,6 +33,7 @@ The analysis within the Google Search Analysis.ipynb notebook follows a structur
 
 
 **📊 Key Visual Output**
+
 - Top 15 Global Hubs: A bar chart showing the highest regional interest scores for "artificial intelligence."
 
 - Temporal Popularity: A line graph illustrating the volatility and growth of "artificial intelligence" search volume over the past year.
